@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Biodata Jesika Rahman</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            padding: 40px;
+            min-height: 100vh;
+            box-sizing: border-box;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            overflow-x: hidden;
+            overflow-y: auto;
+
+            background: linear-gradient(
+                135deg,
+                #d9c2ff,
+                #f5c6e8,
+                #c9d9ff
+            );
+        }
+
+        .biodata {
+            width: 500px;
+            background: linear-gradient(
+                145deg,
+                #ffffff,
+                #fff7fd
+            );
+
+            padding: 25px;
+            border-radius: 20px;
+
+            box-shadow: 0 10px 30px rgba(126, 87, 150, 0.25);
+
+            position: relative;
+            z-index: 2;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            text-align: center;
+
+            background: linear-gradient(
+                90deg,
+                #8e5bb7,
+                #e477b8,
+                #6d8ee8
+            );
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            font-size: 28px;
+            margin: 0 0 25px;
+        }
+
+        .foto {
+            display: block;
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
+
+            border-radius: 50%;
+
+            margin: 0 auto 35px;
+
+            border: 5px solid transparent;
+
+            background:
+                linear-gradient(white, white) padding-box,
+                linear-gradient(
+                    135deg,
+                    #a875ff,
+                    #ff9ed8,
+                    #8db7ff
+                ) border-box;
+
+            box-shadow: 0 10px 25px rgba(126, 87, 150, 0.3);
+
+            animation: fotoMelayang 3s ease-in-out infinite;
+        }
+
+        @keyframes fotoMelayang {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-8px);
+            }
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .bawah {
+            text-align: center;
+
+            background: linear-gradient(
+                90deg,
+                #8e5bb7,
+                #e477b8,
+                #6d8ee8
+            );
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            margin-top: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Biodata -->
+    <div class="biodata">
+
+        <h1>BIODATA DIRI</h1>
+
+        <!-- Foto profil -->
+        <img src="jes1.jpg" class="foto">
+
+        <p><b>Nama:</b> Jesika Rahman</p>
+
+        <p><b>Nama Panggilan:</b> Jesss</p>
+
+        <p><b>Tempat, Tanggal Lahir:</b> LN, 26 Juni 2026</p>
+
+        <p><b>Alamat:</b> Desa Air Mesu</p>
+
+        <p><b>Status:</b> Mahasiswa</p>
+
+        <p><b>Program Studi:</b> Sistem dan Teknologi Informasi</p>
+
+        <p><b>Hobi:</b> Gibah</p>
+
+        <p><b>Cita-cita:</b> Orang Kaya 💸</p>
+
+        <p><b>E-mail:</b> jesikauy@gmail.com</p>
+
+        <p class="bawah">
+            Tingok Lah Bes!
+        </p>
+
+    </div>
+
+</body>
+
+</html>
